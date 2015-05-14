@@ -1,26 +1,26 @@
-* { 
-	padding: 0; 
-	margin: 0; 
-	outline: 0; 
+* {
+	padding: 0;
+	margin: 0;
+	outline: 0;
 }
 
 html,
-body { 
+body {
 	height: 100%;
 	font-size: 10px;
 }
 
-img { 
-	border: 0; 
-	vertical-align: middle; 
+img.bg-image {
+	border: 0;
+	vertical-align: middle;
 }
 
-.bg { 
-	position: relative; 
+.bg {
+	position: relative;
 	min-height: 100%;
 }
 
-.text{ 
+.text{
 	display: block;
 	text-align: center;
 	font-family: sans-serif;
@@ -37,11 +37,13 @@ img {
 }
 
 .text button{
-	font-size: 3em;
+	display: block;
+	font-size: 2em;
 	background: transparent;
-	border: 3px solid white;
+	border: 2px solid white;
 	color: white;
-	padding: 20px;
+	padding: 15px;
 	border-radius: 5px;
 	cursor: pointer;
+	margin: 30px auto;
 }
