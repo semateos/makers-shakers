@@ -4,6 +4,6 @@ $(document).ready(function(){
 
 	console.log('ready');
 
-  $('.bg img').fullscreener();
+  //$('.bg img').fullscreener();
 
 });

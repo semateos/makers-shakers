@@ -4,15 +4,28 @@
 
 {% block content %}
 
-<div class="bg">
-    <img class="bg-image" src="images/BAA.jpg" width="495" height="495" alt="">
+<div id="bg">
+  <video autoplay poster="/images/BAA.jpg" id="bgvid" loop>
+    <!-- WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
+    <source src="/images/shakers.webm" type="video/webm">
+    <source src="/images/shakers.mp4" type="video/mp4">
+  </video>
 </div>
 
-<div class="text">
+<div id="intro">
 
   <img src="images/makers-shakers-2015.svg" width="500" alt="Makers & Shakers">
 
+  <p>A forum that spotlights a range of exciting projects and ideas
+taking shape around us.</p>
   <button>MAKE IT, SHAKE IT!</button>
+
+</div>
+
+<div id="schedule">
+
+  <h2>Schedule</h2>
+
 
 </div>
 
