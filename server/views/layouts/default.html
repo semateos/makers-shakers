@@ -1,15 +1,15 @@
 <!doctype html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <title>{% block title %}{% endblock %}</title>
-	
-	<meta name='viewport' content='width=600, initial-scale=1, user-scalable=no' />
+  <meta charset="UTF-8">
+  <title>{% block title %}{% endblock %}</title>
 
-    {% include "../includes/head.html" %}
+  <link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,700,400italic' rel='stylesheet' type='text/css'>
+
+  {% include "../includes/head.html" %}
 </head>
 <body>
-    {% block content %}{% endblock %}
-    {% include "../includes/foot.html" %}
+  {% block content %}{% endblock %}
+  {% include "../includes/foot.html" %}
 </body>
 </html>
