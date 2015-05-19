@@ -9,9 +9,10 @@ body {
 	height: 100%;
 	font-size: 14px;
 	font-family: Ubuntu, sans-serif;
-	background-color: black;
-	background-size: cover;
-	background-blend-mode: multiply;
+	background-color: #8C8761;
+  background-size: 150%;
+  background-blend-mode: difference;
+	background-image: url('/images/bg3.gif');
 }
 
 #bg {
@@ -20,11 +21,11 @@ body {
 	width: 100%;
 	z-index: 1;
 	overflow: hidden;
-	background-color: #6F6F6F;
+	background-color: #8C1111;
   background-size: 250%;
   background-position: -141% 35%;
   background-image: url('/images/makers-shakers-2015.svg');
-  opacity: 0.4;
+  opacity: 0.2;
 }
 
 #bgvid {
@@ -50,7 +51,7 @@ body {
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	width: 80%;
+	width: 65%;
 	margin: auto;
 	transform: translate(-50%, -50%);
 	-webkit-transform: translate(-50%, -50%);
@@ -58,7 +59,7 @@ body {
 }
 
 #intro img{
-	padding: 30px 0 0;
+	padding: 45px 0 0;
 }
 
 #intro tagline{
@@ -67,9 +68,10 @@ body {
 	text-align: center;
 	padding: 50px 0 0;
 	margin: 0 auto;
-	font-size: 2em;
-	font-weight: 300;
-	color: rgba(243, 122, 82, 1.0);
+	font-size: 3em;
+	font-weight: 600;
+	color: #A39985;
+	text-transform: uppercase;
 }
 
 #intro date{
@@ -80,21 +82,21 @@ body {
 	margin: 0 auto;
 	font-size: 2em;
 	font-weight: 500;
-	color: rgba(243, 122, 82, 1.0);
+	color: #A39985;
 }
 
 #intro button{
 	display: block;
 	font-size: 1.5em;
 	background: transparent;
-	border: 2px solid rgba(246, 149, 83, 1.0);
+	border: 5px solid rgba(246, 149, 83, 1.0);
 	color: rgba(246, 149, 83, 1.0);
-	padding: 15px;
-	border-radius: 5px;
+	padding: 15px 25px;
+	border-radius: 50px;
 	cursor: pointer;
 	margin: 50px auto 30px;
 	font-family: Ubuntu, sans-serif;
-	font-weight: 300;
+	font-weight: 500;
 }
 
 #schedule{
@@ -103,10 +105,10 @@ body {
 	top:95%;
 	color: #A39985;
 	padding: 200px;
-	background-color: #271201;
+	background-color: #520C3D;
 	background-size: 200%;
 	background-blend-mode: difference;
-	opacity: 0.8;
+	opacity: 0.7;
 }
 
 #schedule h2{
