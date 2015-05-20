@@ -7,6 +7,9 @@
 html,
 body {
 	height: 100%;
+}
+
+body{
 	font-size: 14px;
 	font-family: Ubuntu, sans-serif;
 	background-color: #8C8761;
@@ -75,6 +78,7 @@ body {
 
 #intro img{
 	padding: 45px 0 0;
+	width: 60%;
 }
 
 #intro tagline{
@@ -149,7 +153,7 @@ body {
 /*Speakers*/
 
 #speakers{
-	padding: 200px;
+	padding: 100px 150px;
 	color: #A39985;
 	background-color: #520C3D;
 	background-blend-mode: difference;
@@ -185,7 +189,7 @@ body {
 
 #schedule{
 
-	padding: 200px;
+	padding: 100px 150px;
 	color: #A39985;
 	background-color: #0C3D52;
 	background-blend-mode: difference;
@@ -225,9 +229,9 @@ body {
 /* Misc */
 
 #misc{
-	padding: 180px;
+	padding: 100px 150px;
 	color: #A39985;
-	background-color: #520C3D;
+	background-color: #4E401F;
 	background-blend-mode: difference;
 	opacity: 0.7;
 	overflow: auto;
@@ -240,11 +244,134 @@ body {
 #misc a{
 	display: block;
 	color: #F69553;
-	font-size: 2em;
+	font-size: 1.5em;
 	margin: 0 0 10px;
 }
 
-#misc a.button{
+
+
+#footer{
+	padding: 80px 150px;
+	color: #A39985;
+	background-color: #52140C;
+	background-blend-mode: difference;
+	opacity: 0.7;
+	overflow: auto;
+	text-align: center;
+}
+
+#footer a.button{
 	display: inline-block;
-	margin: 10px 0;
+	margin: 10px auto;
+	text-transform: uppercase;
+}
+
+
+
+@media (max-width: 900px) {
+
+	body{
+
+		background-size: 300%;
+	}
+
+	#intro{
+		width: 80%;
+	}
+
+	#intro img{
+		padding: 45px 0 0;
+		width: 70%;
+	}
+
+	#intro tagline{
+		padding: 25px 0 0;
+		font-size: 2.5em;
+	}
+
+	#speakers,
+	#schedule,
+	#misc,
+	#footer{
+		padding: 80px;
+	}
+
+	#content h2{
+		font-size: 6em;
+	}
+
+	#schedule date,
+	#content h3{
+		font-size: 3em;
+	}
+
+	#speakers speaker{
+		width: 33.33%;
+		padding: 40px 30px 0 0;
+	}
+}
+
+
+@media (max-width: 600px) {
+
+	body{
+		font-size: 10px;
+		background-size: 460%;
+	}
+
+	#intro{
+		width: 90%;
+	}
+
+	#intro img{
+		padding: 25px 0 0;
+		width: 80%;
+	}
+
+	#intro tagline{
+		padding: 25px 0 0;
+		font-size: 2em;
+	}
+
+	#intro date,
+	#intro location{
+		padding: 8px 0 0 0;
+		font-size: 1.3em;
+	}
+
+	#speakers,
+	#schedule,
+	#misc,
+	#footer{
+		padding: 30px;
+	}
+
+	#misc a{
+		font-size: 1.5em;
+	}
+
+	#content h2{
+		font-size: 4em;
+	}
+
+	#content h3{
+		font-size: 2em;
+	}
+
+	#schedule date{
+
+		font-size: 2em;
+		padding: 15px 0 0 0;
+	}
+
+	#schedule event{
+		padding: 8px 0 0 0;
+		font-size: 1.2em;
+	}
+
+	#speakers speaker{
+		width: 50%;
+		padding: 20px 10px 0;
+	}
+
 }
