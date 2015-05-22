@@ -174,10 +174,12 @@ body{
 }
 
 #speakers img{
+	box-sizing: border-box;
 	display: block;
 	width: 100%;
 	height: auto;
 	border-radius: 50%;
+	border: 1px solid rgba(246, 149, 83, 0);
 }
 
 #speakers name{
@@ -186,7 +188,6 @@ body{
 	font-size: 1.2em;
 	padding: 15px 0 0 0;
 	font-weight: 500;
-	color: rgba(246, 149, 83, 1.0);
 }
 
 #speakers talk{
@@ -196,7 +197,21 @@ body{
 	padding: 5px 0 0 0;
 	font-weight: 500;
 	font-style: italic;
+}
+
+speaker a{
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	color: rgba(246, 149, 83, 0.8);
+}
+
+speaker a:hover{
 	color: rgba(246, 149, 83, 1.0);
+}
+
+#speakers a:hover img{
+	border: 1px solid rgba(246, 149, 83, 1.0);
 }
 
 /*Schedule*/
